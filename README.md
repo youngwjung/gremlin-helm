@@ -30,6 +30,8 @@
 
 ## 도커 이미지를 Private Registry에 저장
 
+Private Registry에 접근이 가능한 호스트에서 gremlin.tar, chao.tar 파일을 복사하고 아래 명령어를 실행
+
 1. 도커 이미지 불러오기
 
     ```bash
@@ -41,7 +43,7 @@
 
 ## Install Charts
 
-아래의 명령어를 kubectl 및 Helm이 설치된 호스트에서 실행
+위에서 다운받은 Helm Charts를 kubectl 및 Helm을 실행시킬수 있는 호스트에서 복사하고 아래의 명령어를 실행
 
 ```bash
 kubectl create namespace gremlin
